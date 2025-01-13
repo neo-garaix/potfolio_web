@@ -1,0 +1,365 @@
+html {
+    overflow-x: hidden;
+    background: #ffffff;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+/* header */
+
+
+.header {
+    height: 70px;
+    background-color: #232c80;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header a {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    transition: ease 0.3s;
+}
+
+.header a:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: solid 3px #87fff2;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    transition: ease 0.3s;
+}
+
+.header a:active {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header img {
+    width: 35px;
+}
+
+/* titre */
+
+.titre {
+    background: linear-gradient(#232c80, #4b5391);
+    color: #111111;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    height: 65vh;
+}
+
+.titre h1 {
+    background: -webkit-linear-gradient(270deg, #0bffed, #c3cfce 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 5vw;
+}
+
+.descTitre {
+    font-size: 3vw;
+    margin: 0;
+    text-align: center;
+}
+
+/* slash */
+
+.finTitre {
+    position: relative;
+    height: 68px;
+    bottom: 30px;
+    background-color: #ffffff;
+    transform: rotate(-1.1deg) scale(1.1, 0.8);
+}
+
+/* body */
+
+.contain {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 100%;
+    flex-wrap: wrap-reverse;
+    background: white;
+    z-index: 1;
+}
+
+.containTexte {
+    width: 40%;
+}
+
+.contain p {
+    font-weight: lighter;
+    color: #4e4e4e;
+    font-size: 23px;
+    /*line-height: 25px;*/
+}
+
+.contain img {
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 46px -4px rgba(0,0,0,0.5);
+}
+
+.links {
+    background-color: white;
+    z-index: 1;
+}
+
+.divLinks {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerLink {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.dlCv {
+    margin: auto;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+.links img {
+    width: 100px;
+    height: 100px;
+    transition: 0.3s ease;
+}
+
+.links img:hover, .dlCv:hover {
+    width: 120px;
+    height: 120px;
+    font-size: 28px;
+    transition: 0.3s ease;
+}
+
+/* slash */
+
+.finContain {
+    z-index: 0;
+    top: 40px;
+    position: relative;
+    bottom: 31px;
+    height: 68px;
+    background-color: #ffffff;
+    transform: rotate(1.1deg) scale(1.1, 0.8);
+}
+
+/* skills */
+
+.skills {
+    background: linear-gradient(#4b5391, #232c80 );
+    color: #111111;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 200%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.skills h1 {
+    background: -webkit-linear-gradient(270deg, #0bffed, #c3cfce 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.skills h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.listeSkills {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 60%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 29px 4px rgba(0,0,0,0.4);
+    margin-bottom: 50px;
+}
+
+.boxImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 145px;
+    margin: 25px;
+}
+
+.listeSkills img {
+    width: 128px;
+    height: 128px;
+    transition: 0.3s ease;
+}
+
+.listeSkills img:hover {
+    width: 145px;
+    height: 145px;
+    transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .header a {
+        width: 7%;
+        height: 45px;
+    }
+
+    .header a:hover {
+        background-color: rgba(255, 255, 255, 0.06);
+        width: 7%;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .header img {
+        width: 80%
+    }
+
+    .titre {
+        height: 50vh;
+        text-align: center;
+    }
+
+    .titre h1 {
+        font-size: 11vw;
+    }
+
+    .descTitre {
+        font-size: 5.5vw;
+    }
+
+    .menuText {
+        font-size: 75px;
+    }
+
+    .menuText:nth-child(2n) {
+        font-size: 55px;
+    }
+
+    .finTitre {
+        top: 2px;
+        transform: rotate(-3.5deg) scale(1.2, 2);
+    }
+
+    .links {
+        z-index: 1;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .finContain {
+        z-index: 0;
+        top: 10px;
+        transform: rotate(3.5deg) scale(1.2, 2.2);
+    }
+
+    .contain {
+        flex-direction: column-reverse;
+    }
+
+    .contain img {
+        width: 60%;
+    }
+
+    .containTexte {
+        width: 87%;
+    }
+
+    .contain p {
+        margin-top: 10%;
+        font-size: 130%;
+        text-align: center;
+    }
+
+    .skills h1 {
+        margin-top: 50px;
+        font-size: 10vw;
+    }
+
+    .skills h2 {
+        font-size: 6vw;
+    }
+
+    .listeSkills {
+        max-width: 85%;
+    }
+
+    .boxImg {
+        width: 185px;
+        height: 185px;
+        margin: 35px;
+    }
+
+    .listeSkills img {
+        width: 168px;
+        height: 168px;
+    }
+
+    .listeSkills img:hover {
+        width: 185px;
+        height: 185px;
+    }
+
+}
