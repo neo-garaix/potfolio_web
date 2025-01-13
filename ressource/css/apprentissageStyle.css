@@ -108,20 +108,39 @@ body {
 }
 
 .containTexte {
-    width: 40%;
+    width: 77%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contain p {
     font-weight: lighter;
-    color: #4e4e4e;
+    color: #111111;
     font-size: 23px;
     /*line-height: 25px;*/
 }
 
 .contain img {
-    width: 500px;
-    border-radius: 100%;
+    width: 100%;
+    border-radius: 15px;
     box-shadow: 0px 0px 46px -4px rgba(0,0,0,0.5);
+}
+
+a {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.listeA {
+    display: flex;
 }
 
 .links {

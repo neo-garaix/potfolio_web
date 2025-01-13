@@ -126,7 +126,7 @@ body {
 }
 
 .encart {
-    width: 34%;
+    width: 25%;
     height: 100px;
     background: #ffffff;
     border-radius: 10px;
@@ -143,6 +143,11 @@ body {
 
 #propos {
     border: solid 3px #1016b4;
+    /*box-shadow: 3px 5px 0 #1016b4;*/
+}
+
+#apprentissage {
+    border: solid 3px #1fcb22;
     /*box-shadow: 3px 5px 0 #1016b4;*/
 }
 
@@ -177,6 +182,11 @@ img {
 #propos::before,
 #propos::after {
     background-color: #b9d7ff; /* Couleur de remplissage */
+}
+
+#apprentissage::before,
+#apprentissage::after {
+    background-color: #b9ffba; /* Couleur de remplissage */
 }
 
 .encart:hover::before {
