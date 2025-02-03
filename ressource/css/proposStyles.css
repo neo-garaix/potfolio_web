@@ -111,7 +111,7 @@ body {
     width: 40%;
 }
 
-.contain p {
+.contain p, .textStageAlternance {
     font-weight: lighter;
     color: #4e4e4e;
     font-size: 23px;
@@ -177,6 +177,18 @@ body {
     width: 120px;
     height: 120px;
     font-size: 28px;
+    transition: 0.3s ease;
+}
+
+.textStageAlternance {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.textStageAlternance a {
+    text-decoration: none;
+    font-weight: bold;
     transition: 0.3s ease;
 }
 
@@ -327,7 +339,7 @@ body {
         width: 87%;
     }
 
-    .contain p {
+    .contain p, .textStageAlternance {
         margin-top: 10%;
         font-size: 130%;
         text-align: center;
