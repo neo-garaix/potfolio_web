@@ -105,6 +105,8 @@ body {
     flex-wrap: wrap-reverse;
     background: white;
     z-index: 1;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .containTexte {
@@ -113,15 +115,47 @@ body {
 
 .contain p, .textStageAlternance {
     font-weight: lighter;
-    color: #4e4e4e;
+    color: #2f2f2f;
     font-size: 23px;
     /*line-height: 25px;*/
 }
 
 .contain img {
-    width: 500px;
+    width: 300px;
     border-radius: 100%;
     box-shadow: 0px 0px 46px -4px rgba(0,0,0,0.5);
+}
+
+/* encart propos */
+
+.encartProposGeneral {
+    max-width: 73%;
+    padding: 25px;
+    padding-top: 5px;
+    margin: 20px auto;
+}
+
+.encartPropos {
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 50px auto;
+    font-size: 21px;
+    width: 50%;
+    background-color: #fffc9a;
+}
+
+.encartPropos h2 {
+    font-size: 27px;
+    color: #1f485e;
+}
+
+#stage {
+    margin-left: 10%;
+}
+
+#alternance {
+    margin-right: 10%;
 }
 
 .links {
@@ -130,7 +164,7 @@ body {
 }
 
 .divLinks {
-    width: 400px;
+    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -187,6 +221,7 @@ body {
 }
 
 .textStageAlternance a {
+    color: #002db3;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s ease;
@@ -343,6 +378,22 @@ body {
         margin-top: 10%;
         font-size: 130%;
         text-align: center;
+    }
+
+    .encartProposGeneral {
+        max-width: 90%;
+    }
+
+    .encartPropos {
+        width: 80%;
+    }
+
+    #stage {
+        margin: 50px auto;
+    }
+
+    #alternance {
+        margin: 50px auto;
     }
 
     .skills h1 {

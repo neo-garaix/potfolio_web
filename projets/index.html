@@ -29,19 +29,22 @@
         <div class="imgCarouselProjet">
             <img src="../ressource/img/projet/sauvegarde.png" alt="image sauvegarde 1">
             <img src="../ressource/img/projet/sauvegarde2.png" alt="image sauvegarde 2">
+            <img src="../ressource/img/projet/sauvegarde3.png" alt="image sauvegarde 3">
+            <img src="../ressource/img/projet/sauvegarde4.png" alt="image sauvegarde 4">
         </div>
         <h2>
-            Application de sauvegarde incrémentale client/serveur
+            Application de sauvegarde incrémentale client/server à flux chiffrés
         </h2>
         <p class="date">
             BUT 3 : 2024 - 2025
         </p>
         <p>
-            KikaraSave est une application de sauvegarde de fichiers.
-            Elle repose sur un fonctionnement client/serveur avec flux chiffrés.
-            Elle permet de sauvegarder des fichiers sur un serveur distant, de consulter l'arbre de ces fichiers et de les restaurer.
-            L'application côté serveur est complétée par un conteneur MySQL qui permet de stocker des comptes utilisateurs.
-            Ce projet m'a permis d'améliorer ma façon de concevoir un projet, avec notamment des étapes antérieures au développement.
+            KikaraSave est une application de sauvegarde incrémentale pouvant être utilisée sur un même réseau. Elle nécessite
+            un serveur pouvant accueilir divers client.
+            Cette application dispose d'un fonctionnement par compte afin de retrouver quelles sauvegardes ont été effectuées par
+            quel utilisateur. Pour ce faire, nous avons mis en place une base de données SQL à installer via Docker sur la
+            machine serveur. Tous les flux entre le client et le serveur sont chiffrés via un chiffrement asymétrique.
+            Cette application a été réalisée en Python et utilise une interface graphique via Tkinter.
         </p>
     </div>
     <div class="containProjet" id="enchere">
