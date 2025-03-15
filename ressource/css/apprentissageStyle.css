@@ -137,10 +137,14 @@ a {
     margin-right: auto;
 }
 
-
+img {
+    width: 100px;
+}
 
 .listeA {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .links {
@@ -270,6 +274,10 @@ a {
     width: 145px;
     height: 145px;
     transition: 0.3s ease;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
